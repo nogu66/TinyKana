@@ -11,6 +11,7 @@ build:
 	mkdir -p $(BIN_DIR) $(RES_DIR)
 	cp .build/release/$(APP_NAME) $(BIN_DIR)/$(APP_NAME)
 	cp Info.plist $(BUNDLE)/Contents/Info.plist
+	cp Resources/AppIcon.icns $(RES_DIR)/AppIcon.icns
 
 ## ビルドして即起動
 run: build
