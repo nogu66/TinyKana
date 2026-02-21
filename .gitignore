@@ -3,6 +3,7 @@
 
 # Built app bundle
 TinyKana.app/
+TinyKana.zip
 
 # macOS
 .DS_Store
