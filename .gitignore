@@ -1,0 +1,8 @@
+# Swift build artifacts
+.build/
+
+# Built app bundle
+TinyKana.app/
+
+# macOS
+.DS_Store
